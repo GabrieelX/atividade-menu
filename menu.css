@@ -1,6 +1,6 @@
 #navbar{
     overflow: hidden;
-    background-color: #333;
+    background-color: #14cde6;
 }
 
 #navbar a {
@@ -11,11 +11,13 @@
     padding: 14px;
     text-decoration: none;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .content {
-    position: fixed;
-    top: 0;
-    width: 100%; 
+    padding: 16px;
 }   
 
 .sticky + .content {
